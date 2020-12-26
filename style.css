@@ -1,0 +1,131 @@
+html {
+  font-size: 10px;
+  height: 100%;
+}
+
+body {
+  background: black;
+  background-image: url("./img/night-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.kanye {
+  height: auto;
+  width: 8rem;
+  border-radius: 30%;
+  background: rgba(255, 255, 255, 0.36);
+  box-shadow: 0 0 10rem 1rem white;
+  animation-name: twinkle;
+  animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+  50% {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+}
+
+#kanye-1 {
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  animation-duration: 2s;
+}
+
+#kanye-3 {
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+  animation-duration: 1.9s;
+}
+
+#kanye-4 {
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+  animation-duration: 2.1s;
+}
+
+#kanye-5 {
+  position: absolute;
+  top: 40vh;
+  left: 25vw;
+  animation-duration: 2s;
+}
+
+#kanye-6 {
+  position: absolute;
+  top: 2vh;
+  left: 30vw;
+  animation-duration: 1.9s;
+}
+
+#kanye-7 {
+  position: absolute;
+  top: 13vh;
+  left: 37vw;
+  animation-duration: 2.1s;
+}
+
+#kanye-8 {
+  position: absolute;
+  top: 55vh;
+  left: 45vw;
+  animation-duration: 2.2s;
+}
+
+#kanye-9 {
+  position: absolute;
+  top: 35vh;
+  left: 52vw;
+  animation-duration: 2.3s;
+}
+
+#kanye-10 {
+  position: absolute;
+  top: 10vh;
+  left: 60vw;
+  animation-duration: 1.8s;
+}
+
+#kanye-11 {
+  position: absolute;
+  top: 28vh;
+  left: 70vw;
+  animation-duration: 1.7s;
+}
+
+#kanye-12 {
+  position: absolute;
+  top: 5vh;
+  left: 90vw;
+  animation-duration: 2s;
+}
+
+#kanye-13 {
+  position: absolute;
+  top: 38vh;
+  left: 85vw;
+  animation-duration: 1.9s;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 5px;
+  }
+}
